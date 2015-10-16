@@ -7,10 +7,9 @@ Audit with Huggare.
 ```javascript
 var Severities = require('huggare').Severities,
     Log = require('huggare-log'),
-    Auditor = require('huggare-auditor');
+    Auditor = require('huggare-audit');
 
 // Assumes a user object containing at least a `username` prop.
-
 var user = {
   username: 'test'
 };
