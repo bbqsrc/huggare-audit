@@ -32,5 +32,5 @@ audit.loggedOut();
 // -> 2015-10-16T06:58:27.581Z [I] AUDIT: (test) logged out
 
 audit.brokeEverything();
-// -> 2015-10-16T06:58:29.056Z [I] AUDIT: (test) wrecked up the place
+// -> 2015-10-16T06:58:29.056Z [E] AUDIT: (test) wrecked up the place
 ```
